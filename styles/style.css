@@ -188,6 +188,22 @@ nav ul li {
   margin: 0px 40px 33px 40px;
 }
 
+.arrows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.arrow {
+  background-color: orange;
+  border-radius: 30px;
+  border: none;
+  padding: 17px 22px;
+  color: white;
+  margin-top: 80px;
+  font-size: 24px;
+}
+
 .stories {
   margin-top: 60px;
 }
@@ -261,8 +277,9 @@ nav ul li {
   font-weight: 500px;
   font-size: 15.34px;
   padding: 14.38px 18.88px 15.34px 19.17px;
-  margin-left: 38.35px;
-  margin-top: -30.08px;
+  position: relative;
+  top: -27px;
+  left: 38.35px;
 }
 .date2 {
   border-radius: 47.93px;
@@ -272,8 +289,9 @@ nav ul li {
   font-weight: 500px;
   font-size: 15.34px;
   padding: 9px 18px 10px 19.17px;
-  margin-left: 38.35px;
-  margin-top: -30.08px;
+  position: relative;
+  left: 38.35px;
+  top: -25.08px;
 }
 .date3 {
   border-radius: 47.93px;
@@ -283,8 +301,13 @@ nav ul li {
   font-weight: 500px;
   font-size: 15.34px;
   padding: 9px 18px 10px 19.17px;
-  margin-left: 38.35px;
-  margin-top: -30.08px;
+  position: relative;
+  left: 38.35px;
+  top: -25.08px;
+}
+.blue{ background-color: #01ACFD;
+color: white;
+margin-bottom: 20px;
 }
 .date4 {
   border-radius: 47.93px;
@@ -294,8 +317,9 @@ nav ul li {
   font-weight: 500px;
   font-size: 15.34px;
   padding: 9px 18px 10px 19.17px;
-  margin-left: 38.35px;
-  margin-top: -30.08px;
+  position: relative;
+  left: 38.35px;
+  top: -25.08px;
 }
 
 .story-2 {
@@ -464,7 +488,7 @@ nav ul li {
     margin: 0 auto;
   }
   nav h3,
-  button {
+  .btn-1 {
     display: none;
   }
   .nav-links {
@@ -472,7 +496,7 @@ nav ul li {
   }
   .nav-icon {
     display: block;
-    margin-right: 16px;
+    margin: 20px 16px 20px 285.75px;
   }
 
   .nav-bar {
@@ -510,18 +534,17 @@ nav ul li {
   }
   .Curriculum {
     align-items: center;
+    justify-content: center;
   }
-  .kinder {
-    margin-bottom: 12.3px;
-  }
-  .elementary {
-    margin-bottom: 12.3px;
-  }
+  .kinder,
+  .elementary,
   .middle {
+    margin-left: 19px;
     margin-bottom: 12.3px;
   }
 
-  .story-1-card {
+  .story-1-card,
+  .arrows {
     display: none;
   }
   .stories-4aligned img {
@@ -539,22 +562,51 @@ nav ul li {
     font-weight: 700;
   }
 
-  .footer-section{ flex-direction: column;
-    padding: 0px ;
+  .footer-section {
+    flex-direction: column;
+    padding: 0px;
   }
-  .footer-part-1{ margin: 65px 123px 22px 16px ;}
-.footer-title{
-  color: rgb(255, 255, 255);
-font-size: 35.73px;
-font-weight: 700;
-}
-.footer-paragraph{ color: rgb(255, 255, 255);
-  font-size: 16px;
-  font-weight: 400;
+  .footer-part-1 {
+    margin: 65px 123px 22px 16px;
   }
-  .footer-links{ margin: 32px 241px 31px 20px ;}
-.footer-images h3 { padding-top: 31px;
-padding-bottom: 36px ;
-}
+  .footer-title {
+    color: rgb(255, 255, 255);
+    font-size: 35.73px;
+    font-weight: 700;
+  }
+  .footer-paragraph {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .footer-links {
+    margin: 32px 241px 31px 20px;
+  }
+  .footer-images h3 {
+    margin-left: 20px;
+    padding-top: 31px;
+    padding-bottom: 36px;
+  }
+  .footer-images img { margin-left: 20px;}
+
+  .date2,
+  .date3,
+  .date4 {
+    border-radius: 28.54px;
+
+    right: 50px;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 9.13px;
+    font-weight: 500;
+  }
+.btn-last{ margin-left: 130px ;
+margin-right: 113px;
 }
 
+  .btn-2-div{display: flex; 
+  align-items: center;
+  justify-content: center;
+  }
+}
